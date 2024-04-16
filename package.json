@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "vercel-build": "node backend/server.js",
     "build": "next build",
     "start": "next starts",
     "lint": "next lint"
